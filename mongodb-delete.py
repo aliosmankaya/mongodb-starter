@@ -7,7 +7,7 @@ import pymongo
 
 ## Cloud Server ##
 ## You can connect cloud server and use with MongoDB Atlas
-myclient = pymongo.MongoClient("mongodb+srv://aliosmank:<password>@cluster0.rwa0g.mongodb.net/node-app?retryWrites=true&w=majority") # Change '<password>' with your db password
+myclient = pymongo.MongoClient("mongodb+srv://<username>:<password>@cluster0.rwa0g.mongodb.net/node-app?retryWrites=true&w=majority") # Change '<username>' and '<password>' with yours
 
 ## Sample Database and collection
 mydb = myclient["node-app"]
